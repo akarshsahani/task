@@ -2,7 +2,7 @@ const { GraphQLList, GraphQLObjectType } = require("graphql");
 const { UserType } = require("./types");
 const { PrismaClient } = require("@prisma/client")
 const prisma = new PrismaClient();
-// const { } = require("../model/entity")
+const { entity } = require("../model/entity")
 
 
 const users = {
